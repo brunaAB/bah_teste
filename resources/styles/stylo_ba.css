@@ -30,6 +30,17 @@
         url(../fonts/damase_v2.otf) format("opentype");
 }
 
+@font-face {
+    font-family: "Arial";
+    font-weight: 300;
+    font-style: normal;
+    src:local('Arial'),
+        url(../fonts/Arial.woff2) format("woff2"),
+        url(../fonts/Arial.woff) format("woff"),
+        url(../fonts/Arial.otf) format("opentype"),
+        url(../fonts/Arial.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;

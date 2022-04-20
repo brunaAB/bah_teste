@@ -3,13 +3,13 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier scheme="ISBN">9786557427989</dc:identifier>
     <dc:creator opf:role="aut" opf:file-as="PNLD, Autor">Alexandre de Paula Gomes</dc:creator>
-    <dc:title>Bons amigos : história : 1º ano : ensino fundamental : anos iniciais</dc:title>
+    <dc:title>Bons amigos : história : 1º ano : ensino fundamental : anos iniciais - Manual do Professor</dc:title>
     <dc:publisher>FTD Educação</dc:publisher>
     <dc:subject>História</dc:subject>
     <dc:format>Livro Digital</dc:format>
     <dc:language>pt-BR</dc:language>
     <dc:date event="creation">2021-09-22</dc:date>
-    <dc:description>Descrição da obra</dc:description>
+    <dc:description>Bons amigos : história : 1º ano : ensino fundamental : anos iniciais - Manual do Professor</dc:description>
     <dc:rights>Copyright © FTD Educação, 2021</dc:rights>
     <dc:identifier id="BookId" scheme="UUID"></dc:identifier>
     <meta name="cover" content="cover.jpg"/>
@@ -523,7 +523,7 @@
     <reference type="text" title="Unidade 1" href="content/unidade01.xhtml"/>
     <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar1.xhtml"/>
     <reference type="text" title="Conclusão Unidade 1" href="content/un1conclusao_prof.xhtml"/>
-    <reference type="text" title="Unidade Unidade 2" href="content/un2introducao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 2" href="content/un2introducao_prof.xhtml"/>
     <reference type="text" title="Unidade 2" href="content/unidade02.xhtml"/>
     <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar2.xhtml"/>
     <reference type="text" title="Conclusão Unidade 2" href="content/un2conclusao_prof.xhtml"/>
@@ -535,7 +535,7 @@
     <reference type="text" title="Unidade 4" href="content/unidade04.xhtml"/>
     <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar4.xhtml"/>
     <reference type="text" title="Conclusão Unidade 4" href="content/un4conclusao_prof.xhtml"/>
-    <reference type="text" title="Unidade Unidade 5" href="content/un5introducao_prof.xhtml"/>
+    <reference type="text" title="Introdução Unidade 5" href="content/un5introducao_prof.xhtml"/>
     <reference type="text" title="Unidade 5" href="content/unidade05.xhtml"/>
     <reference type="text" title="Vamos Avaliar" href="content/vamosavaliar5.xhtml"/>
     <reference type="text" title="Conclusão Unidade 5" href="content/un5conclusao_prof.xhtml"/>
