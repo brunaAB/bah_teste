@@ -214,6 +214,7 @@
      
 
     <!-- IMAGENS NO XHTML -->
+    <item id="capa4.jpg" href="resources/images/capa4.jpg" media-type="image/jpg"/>
     <item id="f0427_1bah_g23_ftd.png" href="resources/images/un2/f0427_1bah_g23_ftd.png" media-type="image/png"/>
 <item id="i0621cx_1bah_g23_ftd.png" href="resources/images/un3/i0621cx_1bah_g23_ftd.png" media-type="image/png"/>
 <item id="fa0207_1bah_g23_ftd.png" href="resources/images/un1/fa0207_1bah_g23_ftd.png" media-type="image/png"/>
