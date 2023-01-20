@@ -49,10 +49,10 @@
 
 section {
     box-sizing: border-box;
-    margin: 1em 0;
+    margin:0 0 1em 0;
 }
 section + section {
-    margin: 1em 0 !important;
+    margin:0 0 1em 0 !important;
 }
 
 section header {
@@ -92,6 +92,40 @@ main {
 math, math mtext {
     max-width: 100%;
   }
+
+  .navepage{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(214, 214, 214);
+    color: #000;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .navepage h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+  }
+
+  .navepage a {
+    color: #000;
+    padding: 0 0.8em;
+  }
+  .navepage a:hover{
+    font-weight: bold;
+  }
+  .navepage div a:first-child {
+    border-right: 1px solid #000;
+  }
+  .navepage div a:last-child {
+    border-left: 1px solid #000;
+  }
+  .navepage 
 
   .navUni{
     padding: 1em 0;
@@ -248,6 +282,9 @@ header .pag {
     width: max-content;
     font-family: "Jellee Bold";
 }
+.pag::before{
+    content: 'Página ';
+}
 
 .large {
     width: 100% !important;
@@ -350,7 +387,7 @@ header .pag {
 }
 
 .atividade_num {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     font-family: "Jellee Bold";
     padding: 2px 8px 4px 8px;
@@ -459,6 +496,7 @@ header .pag {
     font-size: 0.4em !important;
     padding: 0;
     line-height: 1.5em;
+    background: #951B81;
     vertical-align: text-bottom;
 }
 
@@ -466,17 +504,18 @@ header .pag {
     font-size: 2em;
     padding: 0px;
     color: #fff;
+    background: #951B81;
     text-transform: uppercase;
 }
 
 .ti_tema {
-    color: #fff;
+    color: #2b162b;
     padding: 0 25px 0 0;
     text-transform: uppercase;
 }
 
 .ti_tema span {
-    color: #ffe600dc;
+    color: #000000dc;
     text-transform: uppercase;
     width: 28px;
     padding: 0px 2px;
@@ -773,7 +812,7 @@ header .pag {
 .ti_cole_num {
     background: url(../images/bg_num_coletivamente.svg) center no-repeat;
     background-size: 50px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: "Jellee Bold";
     font-size: 1em;
     font-weight: bold;
@@ -781,14 +820,14 @@ header .pag {
 }
 
 .ti_conhecendo, .ti_organizando, .ti_buscando {
-    color: #7D417D;
+    color: #4b264b;
     font-family: "Jellee Bold";
     margin: 16px 0;
 }
 
 /* ENTRE TEXTO */
 .ti_entretexto {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     font-family: "Jellee Bold";
     font-size: 1.2em;
@@ -800,7 +839,7 @@ header .pag {
     background-size: 100%;
     width: max-content;
     padding: 10px 16px 8px 16px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-family: "Jellee Bold";
 }
@@ -810,7 +849,7 @@ header .pag {
     background-size: 100%;
     width: max-content;
     padding: 10px 16px 8px 16px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-family: "Jellee Bold";
 }
@@ -1487,7 +1526,7 @@ header .pag {
 .box_aluno .remissivo  {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1500,7 +1539,7 @@ header .pag {
 .box_aluno .remissivo_prof, .remissivo_prof  {
     background: url(../images/bg_remissivo_prof.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1513,7 +1552,7 @@ header .pag {
 .box_aluno .remissivo_verde, .box_aluno .remissivo_azul, .box_aluno .remissivo_rosa, .box_aluno .remissivo_roxo,
 .box_aluno .remissivo_turquesa, .box_aluno .remissivo_vermelho, .box_aluno .remissivo_laranja, .box_aluno .remissivo_amarelo   {
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1526,7 +1565,7 @@ header .pag {
 .box_aluno .remissivo_verde, .box_aluno .remissivo_azul, .box_aluno .remissivo_rosa, .box_aluno .remissivo_roxo,
 .box_aluno .remissivo_turquesa, .box_aluno .remissivo_vermelho, .box_aluno .remissivo_laranja, .box_aluno .remissivo_amarelo {
     background-size:38px;
-    color: #fff;
+    color: #000;
     font-size: 1.1em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1536,7 +1575,7 @@ header .pag {
 .box_aluno .remissivo_inverde, .box_aluno .remissivo_inazul, .box_aluno .remissivo_inrosa, .box_aluno .remissivo_inroxo,
 .box_aluno .remissivo_inturquesa, .box_aluno .remissivo_invermelho, .box_aluno .remissivo_inlaranja, .box_aluno .remissivo_inamarelo  {
     background-size:30px;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1570,7 +1609,7 @@ header .pag {
 .remissivo {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1582,7 +1621,7 @@ header .pag {
 .remissivo_in {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 30px;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1593,7 +1632,7 @@ header .pag {
 ul li p .remissivo {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1607,7 +1646,7 @@ ul li p .remissivo {
 .box_aluno figure .remissivo {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1625,7 +1664,7 @@ ul li p .remissivo {
 figure .remissivo {
     background: url(../images/bg_remissivo_his.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -1639,7 +1678,7 @@ figure .remissivo {
 .box_cinza .remissivo {
     background: url(../images/bg_remissivo.svg) center center no-repeat;
     background-size: 38px;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: "Jellee Bold";
@@ -3907,6 +3946,17 @@ table tr td {
     .ico {
         width: max-content;
     }
+
+    .navepage h2 {
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+    .navepage {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
 
     /* SEÇÕES GERAIS */
 
